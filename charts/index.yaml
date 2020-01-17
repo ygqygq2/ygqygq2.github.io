@@ -3,7 +3,7 @@ entries:
   bookstack:
   - apiVersion: v1
     appVersion: v2.1
-    created: 2020-01-13T15:04:46.452416121+08:00
+    created: 2020-01-17T10:07:45.365724045+08:00
     description: BookStack是基于Mindoc的一款针对IT团队开发的简单好用的文档管理系统。
     digest: 3b2f1bb88af2c7a93bbcc442e09b5a257f471b6eede9efed72c8d55f3e68ac51
     home: https://www.bookstack.cn
@@ -20,7 +20,7 @@ entries:
   ceph-exporter:
   - apiVersion: v1
     appVersion: 2.0.1-luminous
-    created: 2020-01-13T15:04:46.453037016+08:00
+    created: 2020-01-17T10:07:45.367824725+08:00
     description: A Helm chart for Kubernetes
     digest: 61132de6234ce03fc80f0e9df278227fff77c372b75d4479605b92db8fb05e4c
     home: https://github.com/digitalocean/ceph_exporter/
@@ -37,7 +37,7 @@ entries:
   dejavu:
   - apiVersion: v1
     appVersion: 3.4.0
-    created: 2020-01-13T15:04:46.453998057+08:00
+    created: 2020-01-17T10:07:45.374860626+08:00
     description: Chart for the nginx server
     digest: 10bd1c6d7b349f99481d8f7e1a2ce6d63cf5244d00ed7e39998c178a5835329d
     engine: gotpl
@@ -58,7 +58,7 @@ entries:
   elastichd:
   - apiVersion: v1
     appVersion: "1.4"
-    created: 2020-01-13T15:04:46.454996302+08:00
+    created: 2020-01-17T10:07:45.383350244+08:00
     description: A elasticsearch visual management tool.
     digest: 5b28e2ba00e109f7999a8426268bfb931148bae3f8bc430e97c8ab90ea7da094
     engine: gotpl
@@ -79,7 +79,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 6.7.0
-    created: 2020-01-13T15:04:46.456838332+08:00
+    created: 2020-01-17T10:07:45.395069009+08:00
     description: Flexible and powerful open source, distributed real-time search and
       analytics engine.
     digest: 29ec93e029e891260f1ca368ee429a21c700de04e348138a9143af6a3742f8b4
@@ -112,7 +112,7 @@ entries:
   elasticsearch2:
   - apiVersion: v1
     appVersion: 2.4.6
-    created: 2020-01-13T15:04:46.458407696+08:00
+    created: 2020-01-17T10:07:45.405833188+08:00
     description: A Helm chart for Kubernetes
     digest: a778e04a2cf681b3e9a23ff76553d880ad1a6338b3bf2810eef1d281eb63f20f
     home: https://www.elastic.co/products/elasticsearch
@@ -128,7 +128,7 @@ entries:
   elasticsearch5:
   - apiVersion: v1
     appVersion: 7.3.0
-    created: 2020-01-13T15:04:46.460824378+08:00
+    created: 2020-01-17T10:07:45.409666397+08:00
     description: A highly scalable open-source full-text search and analytics engine
     digest: 5321e1212dab184bfb8cf644fbb836634cf7f4647ce9278a78a18586331f1586
     engine: gotpl
@@ -148,7 +148,7 @@ entries:
   eureka:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2020-01-13T15:04:46.461835009+08:00
+    created: 2020-01-17T10:07:45.411158676+08:00
     description: AWS Service registry for resilient mid-tier load balancing and failover.
     digest: 386a39ab5484a3dfeef28e198865dd506e6e66b04777ebef002613874a919063
     engine: gotpl
@@ -170,7 +170,7 @@ entries:
   fastdfs-nginx:
   - apiVersion: v1
     appVersion: V5.11
-    created: 2020-01-13T15:04:46.46265422+08:00
+    created: 2020-01-17T10:07:45.412063836+08:00
     description: FastDFS-Nginx chart for Kubernetes
     digest: 7ec3e6fa4ff328bb7a69bb5e4f5dc1d348009a91a772304f099e2f1aaf7b418d
     home: https://github.com/happyfish100/fastdfs
@@ -186,7 +186,7 @@ entries:
   gohttpserver:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2020-01-13T15:04:46.463242823+08:00
+    created: 2020-01-17T10:07:45.413065835+08:00
     description: A Helm chart for Kubernetes
     digest: 9a8e075ad1086e3a0893f36eafe4775cc21233348bf6d5655345a3f77ae49b15
     home: https://github.com/codeskyblue/gohttpserver
@@ -202,7 +202,7 @@ entries:
   lam:
   - apiVersion: v1
     appVersion: "6.9"
-    created: 2020-01-13T15:04:46.464789511+08:00
+    created: 2020-01-17T10:07:45.421660017+08:00
     description: LDAP Account Manager (LAM)
     digest: 6d7b964a0b441a462e3feb8760358d7be4ed8f84af3bd74742941a5a5be550d3
     home: https://www.ldap-account-manager.org/lamcms/
@@ -219,7 +219,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: "6.6"
-    created: 2020-01-13T15:04:46.463977168+08:00
+    created: 2020-01-17T10:07:45.420205654+08:00
     description: A Helm chart for Kubernetes
     digest: 902a694018ccd1744c83d638fafc6bc4c42b738a4c923f7c3ddddfe5187efbab
     home: https://www.ldap-account-manager.org/lamcms/releases
@@ -236,9 +236,9 @@ entries:
   mindoc:
   - apiVersion: v1
     appVersion: v2.0-beta.2
-    created: 2020-01-13T15:04:46.465743659+08:00
-    description: A Helm chart for Kubernetes
-    digest: 45f58c0090a8e5662f8eefdb7bf5b0d892bb92efaa3d52f406f0a1cb95623ef6
+    created: 2020-01-17T10:07:45.424368563+08:00
+    description: Mindoc是一款针对IT团队开发的简单好用的文档管理系统。
+    digest: 54d1ffdb2f0721c8574c1227285328e7fd51e175cdc41ae7aa8eeeee8d0840d8
     home: https://www.iminho.me/
     keywords:
     - doc
@@ -253,7 +253,7 @@ entries:
   mod-chart:
   - apiVersion: v1
     appVersion: 1.14.2
-    created: 2020-01-13T15:04:46.468620547+08:00
+    created: 2020-01-17T10:07:45.431479762+08:00
     description: Chart for the nginx server
     digest: 099e9d5d6ed490cb4bc08527625c7a6c64ac6ee2b1c6ce33188fd9efc7c2ddb3
     engine: gotpl
@@ -276,7 +276,7 @@ entries:
     version: 2.1.2
   - apiVersion: v1
     appVersion: 1.14.2
-    created: 2020-01-13T15:04:46.467786686+08:00
+    created: 2020-01-17T10:07:45.430390711+08:00
     description: Chart for the nginx server
     digest: 60307a8a460d34bcd6913e7b0e41d3724328e52876456b30e15b05987652ef10
     engine: gotpl
@@ -299,7 +299,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: 1.14.2
-    created: 2020-01-13T15:04:46.466662498+08:00
+    created: 2020-01-17T10:07:45.429377417+08:00
     description: Chart for the nginx server
     digest: 4b71a3adcdd76d9a853746cc089da02993e2cabf2e95725d683e7bc4d53e7775
     engine: gotpl
@@ -323,7 +323,7 @@ entries:
   mongoclient:
   - apiVersion: v1
     appVersion: 2.2.0
-    created: 2020-01-13T15:04:46.469616641+08:00
+    created: 2020-01-17T10:07:45.441876408+08:00
     description: Nosqlclient (Formerly Mongoclient), MongoDB Management Tool
     digest: 7435491ff570268b64ae7e2ed091d9f5bb7878d303f78ae0fe84c58563804be9
     engine: gotpl
@@ -344,7 +344,7 @@ entries:
   nacos:
   - apiVersion: v1
     appVersion: 1.1.4
-    created: 2020-01-13T15:04:46.485271973+08:00
+    created: 2020-01-17T10:07:45.483764559+08:00
     description: Chart for nacos, an easy-to-use dynamic service discovery, configuration
       and service management platform for building cloud native applications.
     digest: 7507fbb9a080e47c5b36af1baf78c11d00ed96b965392054d509ad95c3e79985
@@ -366,7 +366,7 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: 1.1.4
-    created: 2020-01-13T15:04:46.48252825+08:00
+    created: 2020-01-17T10:07:45.481343404+08:00
     description: Chart for nacos, an easy-to-use dynamic service discovery, configuration
       and service management platform for building cloud native applications.
     digest: b2d744d976380eacf2d853e263a7383563164d94b59cf037fb88afc785ab5187
@@ -388,7 +388,7 @@ entries:
     version: 1.1.4
   - apiVersion: v1
     appVersion: 1.1.0
-    created: 2020-01-13T15:04:46.479942969+08:00
+    created: 2020-01-17T10:07:45.469172643+08:00
     description: Chart for nacos, an easy-to-use dynamic service discovery, configuration
       and service management platform for building cloud native applications.
     digest: a77d535ca1f93537f7b161e669ac8c49acc4bf67d773246810ad72e6e53db77a
@@ -410,7 +410,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: 1.0.1
-    created: 2020-01-13T15:04:46.477450174+08:00
+    created: 2020-01-17T10:07:45.456307799+08:00
     description: Chart for nacos, an easy-to-use dynamic service discovery, configuration
       and service management platform for building cloud native applications.
     digest: 9c713b71342c20c7d54fc70ed8ad72b5ac8e25c2df43245ef71cd54557b74c31
@@ -432,7 +432,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2020-01-13T15:04:46.472685625+08:00
+    created: 2020-01-17T10:07:45.446048717+08:00
     description: Chart for nacos, an easy-to-use dynamic service discovery, configuration
       and service management platform for building cloud native applications.
     digest: 8d67c4da887532b396deda9d37a4799f70ed6dc3017719f2d094219898a3997f
@@ -455,7 +455,7 @@ entries:
   nginx-php:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2020-01-13T15:04:46.48690996+08:00
+    created: 2020-01-17T10:07:45.497142404+08:00
     description: A Helm chart for Kubernetes
     digest: ed6636418ac75bb688b1394819861d008d31f83ff780f875b2840f1bd44d4fff
     home: https://
@@ -470,7 +470,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: nginx-1.10.3_php-7.0
-    created: 2020-01-13T15:04:46.486147459+08:00
+    created: 2020-01-17T10:07:45.486970377+08:00
     description: Chart for the nginx php server
     digest: 36467369abd7e6050cfc6f41304d20da8579c8cbdcf0597d4868cbe1fa7b9d68
     engine: gotpl
@@ -494,7 +494,7 @@ entries:
   nginx-php-sftp:
   - apiVersion: v1
     appVersion: nginx-1.10.3_php-7.0
-    created: 2020-01-13T15:04:46.488820783+08:00
+    created: 2020-01-17T10:07:45.514893638+08:00
     description: Chart for the nginx server
     digest: 0ddd4a6e71d97e495ec59f6bb0386d3a30cbed9bc866660ad790d38bdf43ffbc
     engine: gotpl
@@ -520,7 +520,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: nginx-1.10.3_php-7.0
-    created: 2020-01-13T15:04:46.48780734+08:00
+    created: 2020-01-17T10:07:45.503709526+08:00
     description: Chart for the nginx server
     digest: 189cdf502a992a3e60160a0627568a498dbbd73de13cb094a0df37e474135bcb
     engine: gotpl
@@ -547,7 +547,7 @@ entries:
   nginx-sftp:
   - apiVersion: v1
     appVersion: 1.14.2
-    created: 2020-01-13T15:04:46.492830073+08:00
+    created: 2020-01-17T10:07:45.543260801+08:00
     description: Chart for the nginx server
     digest: 408addeb530ee5830d305f8fe31b5c7e4347d7ce181a7be0b15fb4146ee8783f
     engine: gotpl
@@ -570,7 +570,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: 1.14.2
-    created: 2020-01-13T15:04:46.491420217+08:00
+    created: 2020-01-17T10:07:45.530286513+08:00
     description: Chart for the nginx server
     digest: c1b0e0b74cebe6316101aba045cea17795f8c7d597ead3363126d89c02bd0a9c
     engine: gotpl
@@ -594,7 +594,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: 1.14.2
-    created: 2020-01-13T15:04:46.489837131+08:00
+    created: 2020-01-17T10:07:45.5226605+08:00
     description: Chart for the nginx server
     digest: e418b6f86b9664b7075fe7604c38202399a7172be971b3a6b34e458be08b67e9
     engine: gotpl
@@ -619,7 +619,7 @@ entries:
   self-service-password:
   - apiVersion: v1
     appVersion: "1.3"
-    created: 2020-01-13T15:04:46.494214029+08:00
+    created: 2020-01-17T10:07:45.550512778+08:00
     description: Web interface to change and reset password in an LDAP directory.
     digest: 8dff77dc0d4920e51f7ea97bfe7d04ff2d081f6b3c9669abef3c77a9a9c3ba88
     engine: gotpl
@@ -641,7 +641,7 @@ entries:
   sftp:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2020-01-13T15:04:46.49518466+08:00
+    created: 2020-01-17T10:07:45.5574653+08:00
     description: A Helm chart for Kubernetes
     digest: 10e77351fb09b90a18667fc7e3f4e4bf600901ee246393d58ae7aed455657feb
     home: https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol
@@ -658,7 +658,7 @@ entries:
   tengine-sftp:
   - apiVersion: v1
     appVersion: 2.3.2
-    created: 2020-01-13T15:04:46.496377545+08:00
+    created: 2020-01-17T10:07:45.565129262+08:00
     description: Chart for the tengine server.
     digest: 378085264d466bd922ba9d6ab020ee7ae6e83f901c0bcbb2f8b5e5f9567575d1
     engine: gotpl
@@ -685,7 +685,7 @@ entries:
   utcook:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2020-01-13T15:04:46.50262918+08:00
+    created: 2020-01-17T10:07:45.611733838+08:00
     description: A Helm chart for Kubernetes
     digest: ce7d3d68c27044492cff4aee4efde27b1b9cd0989ac39611305752bb4b6fdf2f
     home: https://github.com/ygqygq2/charts/tree/master/utcook
@@ -702,7 +702,7 @@ entries:
     version: 2.1.3
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2020-01-13T15:04:46.501593023+08:00
+    created: 2020-01-17T10:07:45.600382428+08:00
     description: A Helm chart for Kubernetes
     digest: 07d6dad0aa3956fc6845314488f09cbc596fc2b5c8cc5c53d598c4cf3fe634b1
     home: https://github.com/ygqygq2/charts/tree/master/utcook
@@ -719,7 +719,7 @@ entries:
     version: 2.1.2
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2020-01-13T15:04:46.500355281+08:00
+    created: 2020-01-17T10:07:45.58955863+08:00
     description: A Helm chart for Kubernetes
     digest: d5d10896ae6b809430e4cacbd4ed15a5011e899d585854e9ceebace8c7af63b3
     home: https://github.com/ygqygq2/charts/tree/master/utcook
@@ -736,7 +736,7 @@ entries:
     version: 2.1.1
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2020-01-13T15:04:46.499083072+08:00
+    created: 2020-01-17T10:07:45.578373553+08:00
     description: A Helm chart for Kubernetes
     digest: fa974b66c648c39b20b285ffae4b4af9098aefe886793c27435612247247d537
     home: https://
@@ -752,7 +752,7 @@ entries:
     version: 2.1.0
   - apiVersion: v1
     appVersion: 1.1.8
-    created: 2020-01-13T15:04:46.498078606+08:00
+    created: 2020-01-17T10:07:45.568956145+08:00
     description: A Helm chart for Kubernetes
     digest: ad99f9f8ad4d3bf2ab8585ec1c6511557968924c4f17a563c7026e36d21aa0ca
     home: https://
@@ -768,7 +768,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2020-01-13T15:04:46.497134682+08:00
+    created: 2020-01-17T10:07:45.565953364+08:00
     description: A Helm chart for Kubernetes
     digest: 09992c642218d96ee8db2d212d8ddb8f04fce3ee9c81778ff99c454613d59298
     home: https://
@@ -784,7 +784,7 @@ entries:
   zipkin:
   - apiVersion: v1
     appVersion: "2"
-    created: 2020-01-13T15:04:46.504484366+08:00
+    created: 2020-01-17T10:07:45.619669728+08:00
     description: A Helm chart for Kubernetes
     digest: 803aa364f94627723e6d11db174f32e3e66de4e6dcc734b871377b85396016e3
     home: https://zipkin.io/
@@ -799,4 +799,4 @@ entries:
     urls:
     - http://ygqygq2.github.io/charts/zipkin-1.0.1.tgz
     version: 1.0.1
-generated: 2020-01-13T15:04:46.449988268+08:00
+generated: 2020-01-17T10:07:45.358317584+08:00
