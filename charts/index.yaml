@@ -1,9 +1,33 @@
 apiVersion: v1
 entries:
   alertmanager2es:
+  - apiVersion: v2
+    appVersion: 0.0.3
+    created: "2022-01-24T00:34:06.027692133+08:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Chart for the alertmanager2es
+    digest: a2b194f603d67ecc1dcb31773a013f0d5c2cbdd9624818b2a9fda4a9576d92b0
+    home: https://github.com/ygqygq2/alertmanager2es
+    keywords:
+    - alertmanager
+    - elasticsearch
+    maintainers:
+    - email: 29ygq@sina.com
+      name: Chinge Yang
+    name: alertmanager2es
+    sources:
+    - https://github.com/ygqygq2/alertmanager2es
+    urls:
+    - http://ygqygq2.github.io/charts/alertmanager2es-2.0.0.tgz
+    version: 2.0.0
   - apiVersion: v1
     appVersion: 0.0.3
-    created: "2022-01-22T20:34:04.790411969+08:00"
+    created: "2022-01-24T00:34:06.026739137+08:00"
     description: Chart for the alertmanager2es
     digest: 0ce7c3be275c69558d9d295ca856c3592e2eb88c7d26e38db8e007249d413b1e
     home: https://github.com/ygqygq2/alertmanager2es
@@ -20,9 +44,35 @@ entries:
     - http://ygqygq2.github.io/charts/alertmanager2es-1.0.0.tgz
     version: 1.0.0
   bookstack:
+  - apiVersion: v2
+    appVersion: v2.1
+    created: "2022-01-24T00:34:06.031226957+08:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://ygqygq2.github.io/charts
+      version: 4.5.3
+    description: BookStack是基于Mindoc的一款针对IT团队开发的简单好用的文档管理系统。
+    digest: fd5b1b567c724b996573a1253497ea993616f17a093a9e053c2ee0b7163dd512
+    home: https://www.bookstack.cn
+    keywords:
+    - doc
+    - markdown
+    maintainers:
+    - email: 29ygq@sina.com
+      name: Chinge Yang
+    name: bookstack
+    urls:
+    - http://ygqygq2.github.io/charts/bookstack-2.0.0.tgz
+    version: 2.0.0
   - apiVersion: v1
     appVersion: v2.1
-    created: "2022-01-22T20:34:04.793960374+08:00"
+    created: "2022-01-24T00:34:06.029834055+08:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -44,7 +94,7 @@ entries:
   ceph-exporter:
   - apiVersion: v1
     appVersion: 2.0.1-luminous
-    created: "2022-01-22T20:34:04.794437357+08:00"
+    created: "2022-01-24T00:34:06.031691284+08:00"
     description: A Helm chart for Kubernetes
     digest: 61132de6234ce03fc80f0e9df278227fff77c372b75d4479605b92db8fb05e4c
     home: https://github.com/digitalocean/ceph_exporter/
@@ -59,9 +109,34 @@ entries:
     - http://ygqygq2.github.io/charts/ceph-exporter-1.0.0.tgz
     version: 1.0.0
   dejavu:
+  - apiVersion: v2
+    appVersion: 3.4.0
+    created: "2022-01-24T00:34:06.034322059+08:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: dejavu is the missing web UI for Elasticsearch.
+    digest: 157a9b076fb310a3dfdc0e90347b8b79c53697824317adf3f6b32e17238bf389
+    home: https://github.com/appbaseio/dejavu
+    icon: https://github.com/appbaseio/dejavu/blob/dev/app/src/images/dejavu-logo.svg
+    keywords:
+    - elasticsearch
+    - web ui
+    maintainers:
+    - email: 29ygq@sina.com
+      name: Chinge Yang
+    name: dejavu
+    sources:
+    - https://hub.docker.com/r/appbaseio/dejavu
+    urls:
+    - http://ygqygq2.github.io/charts/dejavu-2.0.0.tgz
+    version: 2.0.0
   - apiVersion: v1
     appVersion: 3.4.0
-    created: "2022-01-22T20:34:04.795202016+08:00"
+    created: "2022-01-24T00:34:06.032512818+08:00"
     description: Chart for the nginx server
     digest: 10bd1c6d7b349f99481d8f7e1a2ce6d63cf5244d00ed7e39998c178a5835329d
     home: https://github.com/appbaseio/dejavu
@@ -79,9 +154,34 @@ entries:
     - http://ygqygq2.github.io/charts/dejavu-1.0.0.tgz
     version: 1.0.0
   elastichd:
+  - apiVersion: v2
+    appVersion: "1.4"
+    created: "2022-01-24T00:34:06.036052478+08:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A elasticsearch visual management tool.
+    digest: fd6ea4bbf10c68e672bffb3302fbfd7f679b249086abe1adae26fbb685c3a2a8
+    home: https://github.com/360EntSecGroup-Skylar/ElasticHD
+    icon: https://raw.githubusercontent.com/ygqygq2/charts/master/elastichd/elastichd.png
+    keywords:
+    - dashboard
+    - elasticSearch
+    maintainers:
+    - email: 29ygq@sina.com
+      name: Chinge Yang
+    name: elastichd
+    sources:
+    - https://github.com/360EntSecGroup-Skylar/ElasticHD
+    urls:
+    - http://ygqygq2.github.io/charts/elastichd-2.0.0.tgz
+    version: 2.0.0
   - apiVersion: v1
     appVersion: "1.4"
-    created: "2022-01-22T20:34:04.796016174+08:00"
+    created: "2022-01-24T00:34:06.035185584+08:00"
     description: A elasticsearch visual management tool.
     digest: 5b28e2ba00e109f7999a8426268bfb931148bae3f8bc430e97c8ab90ea7da094
     home: https://github.com/360EntSecGroup-Skylar/ElasticHD
@@ -101,7 +201,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 6.7.0
-    created: "2022-01-22T20:34:04.797563506+08:00"
+    created: "2022-01-24T00:34:06.037458783+08:00"
     description: Flexible and powerful open source, distributed real-time search and
       analytics engine.
     digest: 29ec93e029e891260f1ca368ee429a21c700de04e348138a9143af6a3742f8b4
@@ -134,7 +234,7 @@ entries:
   elasticsearch2:
   - apiVersion: v1
     appVersion: 2.4.6
-    created: "2022-01-22T20:34:04.798377515+08:00"
+    created: "2022-01-24T00:34:06.038103676+08:00"
     description: A Helm chart for Kubernetes
     digest: a778e04a2cf681b3e9a23ff76553d880ad1a6338b3bf2810eef1d281eb63f20f
     home: https://www.elastic.co/products/elasticsearch
@@ -150,7 +250,7 @@ entries:
   elasticsearch5:
   - apiVersion: v1
     appVersion: 7.3.0
-    created: "2022-01-22T20:34:04.799685007+08:00"
+    created: "2022-01-24T00:34:06.039287906+08:00"
     description: A highly scalable open-source full-text search and analytics engine
     digest: 5321e1212dab184bfb8cf644fbb836634cf7f4647ce9278a78a18586331f1586
     home: https://www.elastic.co/products/elasticsearch
@@ -167,9 +267,35 @@ entries:
     - http://ygqygq2.github.io/charts/elasticsearch5-6.2.2.tgz
     version: 6.2.2
   eureka:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-01-24T00:34:06.041085123+08:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: AWS Service registry for resilient mid-tier load balancing and failover.
+    digest: 416618a29051f329127fa9621c2d9a534c35f271c81fc3457809fe4c8d87f173
+    home: https://github.com/Netflix/eureka
+    icon: https://spring.io/img/homepage/icon-spring-cloud.svg
+    keywords:
+    - registry
+    - eureka
+    maintainers:
+    - email: 29ygq@sina.com
+      name: Chinge Yang
+    name: eureka
+    sources:
+    - https://github.com/Netflix/eureka
+    - https://github.com/ygqygq2/eureka-server
+    urls:
+    - http://ygqygq2.github.io/charts/eureka-2.0.0.tgz
+    version: 2.0.0
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2022-01-22T20:34:04.800628825+08:00"
+    created: "2022-01-24T00:34:06.040136262+08:00"
     description: AWS Service registry for resilient mid-tier load balancing and failover.
     digest: 386a39ab5484a3dfeef28e198865dd506e6e66b04777ebef002613874a919063
     home: https://github.com/Netflix/eureka
@@ -188,9 +314,30 @@ entries:
     - http://ygqygq2.github.io/charts/eureka-1.0.0.tgz
     version: 1.0.0
   fastdfs-nginx:
+  - apiVersion: v2
+    appVersion: "6.07"
+    created: "2022-01-24T00:34:06.043736867+08:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: FastDFS-Nginx chart for Kubernetes
+    digest: c44f4f815c96e74de1f39b0ee005b61ff4f7d907bfc68fc2e71e925d7a1bfd05
+    home: https://github.com/happyfish100/fastdfs
+    keywords:
+    - fastdfs
+    maintainers:
+    - email: 29ygq@sina.com
+      name: Chinge Yang
+    name: fastdfs-nginx
+    urls:
+    - http://ygqygq2.github.io/charts/fastdfs-nginx-2.0.0.tgz
+    version: 2.0.0
   - apiVersion: v1
     appVersion: V5.11
-    created: "2022-01-22T20:34:04.801317832+08:00"
+    created: "2022-01-24T00:34:06.042302343+08:00"
     description: FastDFS-Nginx chart for Kubernetes
     digest: 7ec3e6fa4ff328bb7a69bb5e4f5dc1d348009a91a772304f099e2f1aaf7b418d
     home: https://github.com/happyfish100/fastdfs
@@ -204,9 +351,30 @@ entries:
     - http://ygqygq2.github.io/charts/fastdfs-nginx-1.0.2.tgz
     version: 1.0.2
   gohttpserver:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2022-01-24T00:34:06.045034024+08:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for Kubernetes
+    digest: 109a8e6f456674aaca3b919d8a5fbe4e0640a0617e6d32c68b68674606786233
+    home: https://github.com/codeskyblue/gohttpserver
+    keywords:
+    - gohttpserver
+    maintainers:
+    - email: 29ygq@sina.com
+      name: Chinge Yang
+    name: gohttpserver
+    urls:
+    - http://ygqygq2.github.io/charts/gohttpserver-2.0.0.tgz
+    version: 2.0.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-01-22T20:34:04.801761033+08:00"
+    created: "2022-01-24T00:34:06.044438549+08:00"
     description: A Helm chart for Kubernetes
     digest: 9a8e075ad1086e3a0893f36eafe4775cc21233348bf6d5655345a3f77ae49b15
     home: https://github.com/codeskyblue/gohttpserver
@@ -220,9 +388,32 @@ entries:
     - http://ygqygq2.github.io/charts/gohttpserver-0.1.0.tgz
     version: 0.1.0
   lam:
+  - apiVersion: v2
+    appVersion: "6.9"
+    created: "2022-01-24T00:34:06.048097141+08:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: LDAP Account Manager (LAM)
+    digest: 41de41b4dd908c7ba9e5d208714fa89a7bc6904375cceaab291f8dba289cf8a2
+    home: https://www.ldap-account-manager.org/lamcms/
+    icon: https://avatars0.githubusercontent.com/u/17960417?s=200&v=4
+    keywords:
+    - lam
+    - ldap
+    maintainers:
+    - email: 29ygq@sina.com
+      name: Chinge Yang
+    name: lam
+    urls:
+    - http://ygqygq2.github.io/charts/lam-2.0.0.tgz
+    version: 2.0.0
   - apiVersion: v1
     appVersion: "6.9"
-    created: "2022-01-22T20:34:04.803764019+08:00"
+    created: "2022-01-24T00:34:06.046494639+08:00"
     description: LDAP Account Manager (LAM)
     digest: 6d7b964a0b441a462e3feb8760358d7be4ed8f84af3bd74742941a5a5be550d3
     home: https://www.ldap-account-manager.org/lamcms/
@@ -239,7 +430,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: "6.6"
-    created: "2022-01-22T20:34:04.802410777+08:00"
+    created: "2022-01-24T00:34:06.045734485+08:00"
     description: A Helm chart for Kubernetes
     digest: 902a694018ccd1744c83d638fafc6bc4c42b738a4c923f7c3ddddfe5187efbab
     home: https://www.ldap-account-manager.org/lamcms/releases
@@ -256,7 +447,7 @@ entries:
   mdb:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2022-01-22T20:34:04.805964471+08:00"
+    created: "2022-01-24T00:34:06.050237703+08:00"
     description: A Helm chart for Kubernetes
     digest: 2d464d5c6cc7ea04e56a6295c8b2f980fdb71c96f09cad989857d7098ac20307
     keywords:
@@ -271,7 +462,7 @@ entries:
     version: 4.0.0
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2022-01-22T20:34:04.804945148+08:00"
+    created: "2022-01-24T00:34:06.049285759+08:00"
     description: A Helm chart for Kubernetes
     digest: 7c5ea640cec1351547ef1027b444dab45d4f61cb61c07b6aa61b4ed9b7bf6306
     keywords:
@@ -286,9 +477,35 @@ entries:
     - http://ygqygq2.github.io/charts/mdb-3.0.1.tgz
     version: 3.0.1
   mindoc:
+  - apiVersion: v2
+    appVersion: "2.0"
+    created: "2022-01-24T00:34:06.05374651+08:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://ygqygq2.github.io/charts
+      version: 4.5.3
+    description: Mindoc是一款针对IT团队开发的简单好用的文档管理系统。
+    digest: 00013c4b1113f5e758c3ca15b009a9cdcaaaae6d0b6fa6ce48b9dc7566049e22
+    home: https://www.iminho.me/
+    keywords:
+    - doc
+    - markdown
+    maintainers:
+    - email: 29ygq@sina.com
+      name: Chinge Yang
+    name: mindoc
+    urls:
+    - http://ygqygq2.github.io/charts/mindoc-2.0.0.tgz
+    version: 2.0.0
   - apiVersion: v1
     appVersion: v2.0-beta.2
-    created: "2022-01-22T20:34:04.807930342+08:00"
+    created: "2022-01-24T00:34:06.052229755+08:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -310,7 +527,7 @@ entries:
   mod-chart:
   - apiVersion: v1
     appVersion: 1.14.2
-    created: "2022-01-22T20:34:04.810049997+08:00"
+    created: "2022-01-24T00:34:06.056392463+08:00"
     description: Chart for the nginx server
     digest: 099e9d5d6ed490cb4bc08527625c7a6c64ac6ee2b1c6ce33188fd9efc7c2ddb3
     home: http://www.nginx.org
@@ -332,7 +549,7 @@ entries:
     version: 2.1.2
   - apiVersion: v1
     appVersion: 1.14.2
-    created: "2022-01-22T20:34:04.809401363+08:00"
+    created: "2022-01-24T00:34:06.05568955+08:00"
     description: Chart for the nginx server
     digest: 60307a8a460d34bcd6913e7b0e41d3724328e52876456b30e15b05987652ef10
     home: http://www.nginx.org
@@ -354,7 +571,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: 1.14.2
-    created: "2022-01-22T20:34:04.808657235+08:00"
+    created: "2022-01-24T00:34:06.054867349+08:00"
     description: Chart for the nginx server
     digest: 4b71a3adcdd76d9a853746cc089da02993e2cabf2e95725d683e7bc4d53e7775
     home: http://www.nginx.org
@@ -375,9 +592,34 @@ entries:
     - http://ygqygq2.github.io/charts/mod-chart-1.0.1.tgz
     version: 1.0.1
   mongoclient:
+  - apiVersion: v2
+    appVersion: 2.2.0
+    created: "2022-01-24T00:34:06.057962471+08:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Nosqlclient (Formerly Mongoclient), MongoDB Management Tool
+    digest: 64d57afe981f620e94554fa14ca77447fce245a5a284b7521d4df3e4c69dc115
+    home: https://www.nosqlclient.com
+    icon: https://raw.githubusercontent.com/nosqlclient/nosqlclient/master/public/logo/full_1.png
+    keywords:
+    - mongodb
+    - client
+    maintainers:
+    - email: 29ygq@sina.com
+      name: Chinge Yang
+    name: mongoclient
+    sources:
+    - https://github.com/nosqlclient/nosqlclient/
+    urls:
+    - http://ygqygq2.github.io/charts/mongoclient-2.0.0.tgz
+    version: 2.0.0
   - apiVersion: v1
     appVersion: 2.2.0
-    created: "2022-01-22T20:34:04.810988944+08:00"
+    created: "2022-01-24T00:34:06.057139667+08:00"
     description: Nosqlclient (Formerly Mongoclient), MongoDB Management Tool
     digest: 7435491ff570268b64ae7e2ed091d9f5bb7878d303f78ae0fe84c58563804be9
     home: https://www.nosqlclient.com
@@ -394,10 +636,41 @@ entries:
     urls:
     - http://ygqygq2.github.io/charts/mongoclient-1.0.1.tgz
     version: 1.0.1
+  mysql:
+  - apiVersion: v2
+    appVersion: 5.7.26
+    created: "2022-01-24T00:34:06.058962131+08:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Chart to create a Highly available MySQL cluster
+    digest: e5bd47ca1bfb39275b4b244666b1d6ac783b9a8387c9544bcd509f55d49ec356
+    home: https://mysql.com
+    icon: https://bitnami.com/assets/stacks/mysql/img/mysql-stack-220x234.png
+    keywords:
+    - mysql
+    - database
+    - sql
+    - cluster
+    - high availablity
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    - email: 29ygq@sina.com
+      name: ygqygq2
+    name: mysql
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mysql
+    urls:
+    - http://ygqygq2.github.io/charts/mysql-4.5.3.tgz
+    version: 4.5.3
   mysql-servicemonitor:
   - apiVersion: v1
     appVersion: 5.7.24
-    created: "2022-01-22T20:34:04.812052748+08:00"
+    created: "2022-01-24T00:34:06.059494711+08:00"
     description: A Helm chart servicemonitor for mysql exporter
     digest: b4c6d95c20c9921dd9d1e58a5e61d8b9eaa78e0bdd6bc2ce456bfaf82296d3b4
     maintainers:
@@ -410,7 +683,7 @@ entries:
   nacos:
   - apiVersion: v2
     appVersion: 2.0.4
-    created: "2022-01-22T20:34:04.828566853+08:00"
+    created: "2022-01-24T00:34:06.077461078+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -423,7 +696,7 @@ entries:
       version: 8.x.x
     description: Chart for nacos, an easy-to-use dynamic service discovery, configuration
       and service management platform for building cloud native applications.
-    digest: c5f17c710286754a49900a46bccbac1661c1fe43b5b257646b4b459099e729e0
+    digest: f909c4c4836e03d30e5773efacbb08053b371eb322ab68455f017256725fc978
     home: https://nacos.io
     icon: https://nacos.io/img/nacos_colorful.png
     keywords:
@@ -435,13 +708,13 @@ entries:
       name: Chinge Yang
     name: nacos
     sources:
-    - https://nacos.io
+    - https://github.com/alibaba/nacos
     urls:
     - http://ygqygq2.github.io/charts/nacos-2.0.0.tgz
     version: 2.0.0
   - apiVersion: v1
     appVersion: 1.1.4
-    created: "2022-01-22T20:34:04.823642008+08:00"
+    created: "2022-01-24T00:34:06.071301983+08:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -467,7 +740,7 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: 1.1.4
-    created: "2022-01-22T20:34:04.821421254+08:00"
+    created: "2022-01-24T00:34:06.069073674+08:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -493,7 +766,7 @@ entries:
     version: 1.1.4
   - apiVersion: v1
     appVersion: 1.1.0
-    created: "2022-01-22T20:34:04.818548555+08:00"
+    created: "2022-01-24T00:34:06.066823609+08:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -519,7 +792,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2022-01-22T20:34:04.816385492+08:00"
+    created: "2022-01-24T00:34:06.064580118+08:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -545,7 +818,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2022-01-22T20:34:04.814243551+08:00"
+    created: "2022-01-24T00:34:06.061717744+08:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -570,9 +843,37 @@ entries:
     - http://ygqygq2.github.io/charts/nacos-1.0.0.tgz
     version: 1.0.0
   nginx-php:
+  - apiVersion: v2
+    appVersion: nginx-1.10.3_php-7.0_1242
+    created: "2022-01-24T00:34:06.080106131+08:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Chart for the nginx php server
+    digest: a5aca8a60e109841dbf61ec4fc3d97a53dace0cf93b4932e651e940b44b8a35c
+    home: https://github.com/1and1internet/ubuntu-16-nginx-php-7.0
+    icon: https://secure.gravatar.com/avatar/758bb0e0f4b0735998dda305a917b5af.jpg?s=80&r=g&d=mm
+    keywords:
+    - nginx
+    - http
+    - php
+    - web
+    - www
+    maintainers:
+    - email: 29ygq@sina.com
+      name: Chinge Yang
+    name: nginx-php
+    sources:
+    - https://github.com/1and1internet/ubuntu-16-nginx-php-7.0
+    urls:
+    - http://ygqygq2.github.io/charts/nginx-php-2.0.0.tgz
+    version: 2.0.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-01-22T20:34:04.830153774+08:00"
+    created: "2022-01-24T00:34:06.07915577+08:00"
     description: A Helm chart for Kubernetes
     digest: ed6636418ac75bb688b1394819861d008d31f83ff780f875b2840f1bd44d4fff
     home: https://
@@ -587,7 +888,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: nginx-1.10.3_php-7.0
-    created: "2022-01-22T20:34:04.829540833+08:00"
+    created: "2022-01-24T00:34:06.078410522+08:00"
     description: Chart for the nginx php server
     digest: 36467369abd7e6050cfc6f41304d20da8579c8cbdcf0597d4868cbe1fa7b9d68
     home: https://github.com/1and1internet/ubuntu-16-nginx-php-7.0
@@ -608,9 +909,40 @@ entries:
     - http://ygqygq2.github.io/charts/nginx-php-1.0.1.tgz
     version: 1.0.1
   nginx-php-sftp:
+  - apiVersion: v2
+    appVersion: nginx-1.10.3_php-7.0_1242
+    created: "2022-01-24T00:34:06.083108841+08:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Chart for the nginx server
+    digest: 32585e3e089722482878e63b2ec5a8a2d83bb07b11ca1859ffb1343bf54b266a
+    home: http://www.nginx.org
+    icon: https://bitnami.com/assets/stacks/nginx/img/nginx-stack-220x234.png
+    keywords:
+    - nginx
+    - http
+    - php
+    - web
+    - www
+    - sftp
+    - reverse proxy
+    maintainers:
+    - email: 29ygq@sina.com
+      name: Chinge Yang
+    name: nginx-php-sftp
+    sources:
+    - https://github.com/1and1internet/ubuntu-16-nginx-php-7.0
+    - https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol
+    urls:
+    - http://ygqygq2.github.io/charts/nginx-php-sftp-2.0.0.tgz
+    version: 2.0.0
   - apiVersion: v1
     appVersion: nginx-1.10.3_php-7.0
-    created: "2022-01-22T20:34:04.83183369+08:00"
+    created: "2022-01-24T00:34:06.082057311+08:00"
     description: Chart for the nginx server
     digest: 0ddd4a6e71d97e495ec59f6bb0386d3a30cbed9bc866660ad790d38bdf43ffbc
     home: http://www.nginx.org
@@ -635,7 +967,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: nginx-1.10.3_php-7.0
-    created: "2022-01-22T20:34:04.830954305+08:00"
+    created: "2022-01-24T00:34:06.081095928+08:00"
     description: Chart for the nginx server
     digest: 189cdf502a992a3e60160a0627568a498dbbd73de13cb094a0df37e474135bcb
     home: http://www.nginx.org
@@ -659,9 +991,38 @@ entries:
     - http://ygqygq2.github.io/charts/nginx-php-sftp-1.0.0.tgz
     version: 1.0.0
   nginx-sftp:
+  - apiVersion: v2
+    appVersion: 1.14.2
+    created: "2022-01-24T00:34:06.089857245+08:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Chart for the nginx server
+    digest: 90745ea73a97ab741ca9661f197627501b8964a0ca199d7e1b3c792e075cc08b
+    home: http://www.nginx.org
+    icon: https://bitnami.com/assets/stacks/nginx/img/nginx-stack-220x234.png
+    keywords:
+    - nginx
+    - http
+    - web
+    - www
+    - sftp
+    - reverse proxy
+    maintainers:
+    - email: 29ygq@sina.com
+      name: Chinge Yang
+    name: nginx-sftp
+    sources:
+    - https://github.com/bitnami/bitnami-docker-nginx
+    urls:
+    - http://ygqygq2.github.io/charts/nginx-sftp-2.0.0.tgz
+    version: 2.0.0
   - apiVersion: v1
     appVersion: 1.14.2
-    created: "2022-01-22T20:34:04.834451498+08:00"
+    created: "2022-01-24T00:34:06.086636206+08:00"
     description: Chart for the nginx server
     digest: 408addeb530ee5830d305f8fe31b5c7e4347d7ce181a7be0b15fb4146ee8783f
     home: http://www.nginx.org
@@ -683,7 +1044,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: 1.14.2
-    created: "2022-01-22T20:34:04.833662589+08:00"
+    created: "2022-01-24T00:34:06.085202782+08:00"
     description: Chart for the nginx server
     digest: c1b0e0b74cebe6316101aba045cea17795f8c7d597ead3363126d89c02bd0a9c
     home: http://www.nginx.org
@@ -706,7 +1067,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: 1.14.2
-    created: "2022-01-22T20:34:04.832716833+08:00"
+    created: "2022-01-24T00:34:06.084061641+08:00"
     description: Chart for the nginx server
     digest: e418b6f86b9664b7075fe7604c38202399a7172be971b3a6b34e458be08b67e9
     home: http://www.nginx.org
@@ -730,7 +1091,7 @@ entries:
   node-exporter-servicemonitor:
   - apiVersion: v1
     appVersion: v0.17.0
-    created: "2022-01-22T20:34:04.834837257+08:00"
+    created: "2022-01-24T00:34:06.09025148+08:00"
     description: A Helm chart servicemonitor for node exporter
     digest: e000303dbb6de30580dd5846e856689bbf67fe77c05f0d2e3ef59662f9d18792
     maintainers:
@@ -740,10 +1101,60 @@ entries:
     urls:
     - http://ygqygq2.github.io/charts/node-exporter-servicemonitor-1.0.0.tgz
     version: 1.0.0
+  perfino:
+  - apiVersion: v2
+    appVersion: 3.2.1
+    created: "2022-01-24T00:34:06.091534457+08:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Chart for perfino
+    digest: a7bd44c609548893bf688fdd7c1277feb8856e3296af637191670c219fd81f45
+    home: https://www.ej-technologies.com/products/perfino/overview.html
+    icon: https://www.ej-technologies.com/assets/content/icon-app-perfino@2x-f4697966c89b65a5a8f611ce850c18ae.png
+    keywords:
+    - jvm
+    - monitoring
+    maintainers:
+    - email: 29ygq@sina.com
+      name: Chinge Yang
+    name: perfino
+    urls:
+    - http://ygqygq2.github.io/charts/perfino-2.0.0.tgz
+    version: 2.0.0
   self-service-password:
+  - apiVersion: v2
+    appVersion: "1.3"
+    created: "2022-01-24T00:34:06.093499722+08:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Web interface to change and reset password in an LDAP directory.
+    digest: fa629f6396b3353c66a96e52ad8728309dbb9beb88b77d27b17c955e5d7d4ad2
+    home: https://ltb-project.org/documentation/self-service-password
+    icon: https://ltb-project.org/_media/wiki/logo.png
+    keywords:
+    - ldap
+    - password
+    maintainers:
+    - email: 29ygq@sina.com
+      name: Chinge Yang
+    name: self-service-password
+    sources:
+    - https://github.com/ltb-project/self-service-password
+    - https://github.com/tiredofit/docker-self-service-password
+    urls:
+    - http://ygqygq2.github.io/charts/self-service-password-2.0.0.tgz
+    version: 2.0.0
   - apiVersion: v1
     appVersion: "1.3"
-    created: "2022-01-22T20:34:04.83572967+08:00"
+    created: "2022-01-24T00:34:06.092517884+08:00"
     description: Web interface to change and reset password in an LDAP directory.
     digest: 8dff77dc0d4920e51f7ea97bfe7d04ff2d081f6b3c9669abef3c77a9a9c3ba88
     home: https://ltb-project.org/documentation/self-service-password
@@ -762,9 +1173,33 @@ entries:
     - http://ygqygq2.github.io/charts/self-service-password-1.0.0.tgz
     version: 1.0.0
   sftp:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2022-01-24T00:34:06.094481258+08:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for sftp
+    digest: 5e31550fac2e3c954d49f47a99419bcedf949f7989676e77353159594ea11bc9
+    home: https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol
+    icon: https://raw.githubusercontent.com/ygqygq2/sftp/master/openssh.png
+    keywords:
+    - sftp
+    maintainers:
+    - email: 29ygq@sina.com
+      name: Chinge Yang
+    name: sftp
+    sources:
+    - https://github.com/ygqygq2/sftp/
+    urls:
+    - http://ygqygq2.github.io/charts/sftp-2.0.0.tgz
+    version: 2.0.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-01-22T20:34:04.836159472+08:00"
+    created: "2022-01-24T00:34:06.093977355+08:00"
     description: A Helm chart for Kubernetes
     digest: 10e77351fb09b90a18667fc7e3f4e4bf600901ee246393d58ae7aed455657feb
     home: https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol
@@ -779,9 +1214,40 @@ entries:
     - http://ygqygq2.github.io/charts/sftp-1.0.0.tgz
     version: 1.0.0
   tengine-sftp:
+  - apiVersion: v2
+    appVersion: 2.3.2
+    created: "2022-01-24T00:34:06.096448476+08:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Chart for the tengine server.
+    digest: 73edfef5b6634dff020aeb1f3b6a2a1a4604df1d888376e9fe5c090a6ade5e7b
+    home: http://tengine.taobao.org
+    icon: http://tengine.taobao.org/img/logo.png
+    keywords:
+    - nginx
+    - tengine
+    - http
+    - web
+    - www
+    - sftp
+    - reverse proxy
+    maintainers:
+    - email: 29ygq@sina.com
+      name: Chinge Yang
+    name: tengine-sftp
+    sources:
+    - https://github.com/alibaba/tengine
+    - https://github.com/ygqygq2/tengine-docker
+    urls:
+    - http://ygqygq2.github.io/charts/tengine-sftp-2.0.0.tgz
+    version: 2.0.0
   - apiVersion: v1
     appVersion: 2.3.2
-    created: "2022-01-22T20:34:04.837094158+08:00"
+    created: "2022-01-24T00:34:06.095442622+08:00"
     description: Chart for the tengine server.
     digest: 378085264d466bd922ba9d6ab020ee7ae6e83f901c0bcbb2f8b5e5f9567575d1
     home: http://tengine.taobao.org
@@ -807,7 +1273,7 @@ entries:
   utcook:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2022-01-22T20:34:04.843941624+08:00"
+    created: "2022-01-24T00:34:06.105693358+08:00"
     description: A Helm chart for Kubernetes
     digest: 7faebb26ecf1fd32d631858dad70b4e132ea73a054beed942c1615c853df901a
     home: https://github.com/ygqygq2/charts/tree/master/utcook
@@ -824,7 +1290,7 @@ entries:
     version: 2.1.4
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2022-01-22T20:34:04.843104593+08:00"
+    created: "2022-01-24T00:34:06.104717678+08:00"
     description: A Helm chart for Kubernetes
     digest: ce7d3d68c27044492cff4aee4efde27b1b9cd0989ac39611305752bb4b6fdf2f
     home: https://github.com/ygqygq2/charts/tree/master/utcook
@@ -841,7 +1307,7 @@ entries:
     version: 2.1.3
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2022-01-22T20:34:04.842031816+08:00"
+    created: "2022-01-24T00:34:06.103211333+08:00"
     description: A Helm chart for Kubernetes
     digest: 07d6dad0aa3956fc6845314488f09cbc596fc2b5c8cc5c53d598c4cf3fe634b1
     home: https://github.com/ygqygq2/charts/tree/master/utcook
@@ -858,7 +1324,7 @@ entries:
     version: 2.1.2
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2022-01-22T20:34:04.840965868+08:00"
+    created: "2022-01-24T00:34:06.101340031+08:00"
     description: A Helm chart for Kubernetes
     digest: d5d10896ae6b809430e4cacbd4ed15a5011e899d585854e9ceebace8c7af63b3
     home: https://github.com/ygqygq2/charts/tree/master/utcook
@@ -875,7 +1341,7 @@ entries:
     version: 2.1.1
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2022-01-22T20:34:04.839935828+08:00"
+    created: "2022-01-24T00:34:06.100187578+08:00"
     description: A Helm chart for Kubernetes
     digest: fa974b66c648c39b20b285ffae4b4af9098aefe886793c27435612247247d537
     home: https://
@@ -891,7 +1357,7 @@ entries:
     version: 2.1.0
   - apiVersion: v1
     appVersion: 1.1.8
-    created: "2022-01-22T20:34:04.839020262+08:00"
+    created: "2022-01-24T00:34:06.099192021+08:00"
     description: A Helm chart for Kubernetes
     digest: ad99f9f8ad4d3bf2ab8585ec1c6511557968924c4f17a563c7026e36d21aa0ca
     home: https://
@@ -907,7 +1373,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-01-22T20:34:04.83776046+08:00"
+    created: "2022-01-24T00:34:06.098232576+08:00"
     description: A Helm chart for Kubernetes
     digest: 09992c642218d96ee8db2d212d8ddb8f04fce3ee9c81778ff99c454613d59298
     home: https://
@@ -923,35 +1389,7 @@ entries:
   yapi:
   - apiVersion: v2
     appVersion: v1.8.0
-    created: "2022-01-22T20:34:04.844791221+08:00"
-    dependencies:
-    - name: common
-      repository: https://charts.bitnami.com/bitnami
-      tags:
-      - bitnami-common
-      version: 1.x.x
-    - condition: mongodb.enabled
-      name: mongodb
-      repository: https://charts.bitnami.com/bitnami
-      version: 10.x.x
-    description: 高效、易用、功能强大的 api 管理平台
-    digest: 90d8119e4df4dd2a8b35af723b3770bfe2075b6d1a950026a9b1571dc4c0240a
-    home: https://github.com/ymfe/yapi
-    icon: https://hellosean1025.github.io/yapi/documents/images/logo_header@2x.png
-    keywords:
-    - api
-    - doc
-    - mock
-    maintainers:
-    - email: 29ygq@sina.com
-      name: Chinge Yang
-    name: yapi
-    urls:
-    - http://ygqygq2.github.io/charts/yapi-.tgz
-    version: 2.0.0
-  - apiVersion: v2
-    appVersion: v1.8.0
-    created: "2022-01-22T20:34:04.848283414+08:00"
+    created: "2022-01-24T00:34:06.108948817+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -979,7 +1417,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: v1.7.2
-    created: "2022-01-22T20:34:04.847374465+08:00"
+    created: "2022-01-24T00:34:06.107948268+08:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -1001,9 +1439,36 @@ entries:
     - http://ygqygq2.github.io/charts/yapi-1.0.0.tgz
     version: 1.0.0
   zipkin:
+  - apiVersion: v2
+    appVersion: "2.23"
+    created: "2022-01-24T00:34:06.111536091+08:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    - condition: elasticsearch.enabled
+      name: elasticsearch
+      repository: https://charts.bitnami.com/bitnami
+      version: 17.x.x
+    description: Zipkin is a distributed tracing system.
+    digest: 4121b7b338a6ad0f470f9114d6ceda40234d13db0e13e3f3c66d799e91c13665
+    home: https://zipkin.io/
+    icon: https://zipkin.io/public/img/zipkin-logo-200x119.jpg
+    keywords:
+    - zipkin
+    - tracing
+    maintainers:
+    - email: 29ygq@sina.com
+      name: Chinge Yang
+    name: zipkin
+    urls:
+    - http://ygqygq2.github.io/charts/zipkin-2.0.0.tgz
+    version: 2.0.0
   - apiVersion: v1
     appVersion: "2"
-    created: "2022-01-22T20:34:04.849944018+08:00"
+    created: "2022-01-24T00:34:06.110654621+08:00"
     description: A Helm chart for Kubernetes
     digest: 803aa364f94627723e6d11db174f32e3e66de4e6dcc734b871377b85396016e3
     home: https://zipkin.io/
@@ -1018,4 +1483,4 @@ entries:
     urls:
     - http://ygqygq2.github.io/charts/zipkin-1.0.1.tgz
     version: 1.0.1
-generated: "2022-01-22T20:34:04.789066876+08:00"
+generated: "2022-01-24T00:34:06.025491999+08:00"

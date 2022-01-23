@@ -13,6 +13,7 @@ charts_url="http://ygqygq2.github.io/charts"
 version=$(cat $chart_path/Chart.yaml | egrep '^version' | awk -F': ' '{print $2}')
 chart_basename=$(basename $chart_path)
 chart_dirname=$(dirname $chart_path)
+echo tar ${chart_basename}-${version}.tgz
 tar -C $chart_dirname -zcvf ${chart_basename}-${version}.tgz $chart_basename
 \mv -f *.tgz $charts_dir
 helm repo index $charts_dir --url $charts_url
