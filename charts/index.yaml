@@ -3,7 +3,7 @@ entries:
   alertmanager2es:
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2022-03-17T22:44:51.873192698+08:00"
+    created: "2022-04-01T23:31:10.777309897+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -27,7 +27,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: 0.0.3
-    created: "2022-03-17T22:44:51.858845895+08:00"
+    created: "2022-04-01T23:31:10.768133029+08:00"
     description: Chart for the alertmanager2es
     digest: 0ce7c3be275c69558d9d295ca856c3592e2eb88c7d26e38db8e007249d413b1e
     home: https://github.com/ygqygq2/alertmanager2es
@@ -46,7 +46,7 @@ entries:
   bookstack:
   - apiVersion: v2
     appVersion: v2.1
-    created: "2022-03-17T22:44:51.90566039+08:00"
+    created: "2022-04-01T23:31:10.799407198+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -72,7 +72,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: v2.1
-    created: "2022-03-17T22:44:51.886152325+08:00"
+    created: "2022-04-01T23:31:10.788254424+08:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -94,7 +94,7 @@ entries:
   ceph-exporter:
   - apiVersion: v1
     appVersion: 2.0.1-luminous
-    created: "2022-03-17T22:44:51.907474142+08:00"
+    created: "2022-04-01T23:31:10.800259729+08:00"
     description: A Helm chart for Kubernetes
     digest: 61132de6234ce03fc80f0e9df278227fff77c372b75d4479605b92db8fb05e4c
     home: https://github.com/digitalocean/ceph_exporter/
@@ -111,7 +111,7 @@ entries:
   dejavu:
   - apiVersion: v2
     appVersion: 3.4.0
-    created: "2022-03-17T22:44:51.932002129+08:00"
+    created: "2022-04-01T23:31:10.826618099+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -136,7 +136,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: 3.4.0
-    created: "2022-03-17T22:44:51.909153831+08:00"
+    created: "2022-04-01T23:31:10.801454002+08:00"
     description: Chart for the nginx server
     digest: 10bd1c6d7b349f99481d8f7e1a2ce6d63cf5244d00ed7e39998c178a5835329d
     home: https://github.com/appbaseio/dejavu
@@ -156,7 +156,7 @@ entries:
   elastichd:
   - apiVersion: v2
     appVersion: "1.4"
-    created: "2022-03-17T22:44:51.945341401+08:00"
+    created: "2022-04-01T23:31:10.847857958+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -181,7 +181,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: "1.4"
-    created: "2022-03-17T22:44:51.935070535+08:00"
+    created: "2022-04-01T23:31:10.836078549+08:00"
     description: A elasticsearch visual management tool.
     digest: 5b28e2ba00e109f7999a8426268bfb931148bae3f8bc430e97c8ab90ea7da094
     home: https://github.com/360EntSecGroup-Skylar/ElasticHD
@@ -201,7 +201,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 6.7.0
-    created: "2022-03-17T22:44:51.955973653+08:00"
+    created: "2022-04-01T23:31:10.857439919+08:00"
     description: Flexible and powerful open source, distributed real-time search and
       analytics engine.
     digest: 29ec93e029e891260f1ca368ee429a21c700de04e348138a9143af6a3742f8b4
@@ -234,7 +234,7 @@ entries:
   elasticsearch2:
   - apiVersion: v1
     appVersion: 2.4.6
-    created: "2022-03-17T22:44:51.966754805+08:00"
+    created: "2022-04-01T23:31:10.867396948+08:00"
     description: A Helm chart for Kubernetes
     digest: a778e04a2cf681b3e9a23ff76553d880ad1a6338b3bf2810eef1d281eb63f20f
     home: https://www.elastic.co/products/elasticsearch
@@ -250,7 +250,7 @@ entries:
   elasticsearch5:
   - apiVersion: v1
     appVersion: 7.3.0
-    created: "2022-03-17T22:44:51.968580765+08:00"
+    created: "2022-04-01T23:31:10.869558752+08:00"
     description: A highly scalable open-source full-text search and analytics engine
     digest: 5321e1212dab184bfb8cf644fbb836634cf7f4647ce9278a78a18586331f1586
     home: https://www.elastic.co/products/elasticsearch
@@ -269,7 +269,7 @@ entries:
   eureka:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-03-17T22:44:51.97879351+08:00"
+    created: "2022-04-01T23:31:10.881783649+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -295,7 +295,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2022-03-17T22:44:51.97024947+08:00"
+    created: "2022-04-01T23:31:10.871102045+08:00"
     description: AWS Service registry for resilient mid-tier load balancing and failover.
     digest: 386a39ab5484a3dfeef28e198865dd506e6e66b04777ebef002613874a919063
     home: https://github.com/Netflix/eureka
@@ -316,7 +316,7 @@ entries:
   fastdfs-nginx:
   - apiVersion: v2
     appVersion: "6.07"
-    created: "2022-03-17T22:44:51.981762421+08:00"
+    created: "2022-04-01T23:31:10.885394625+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -337,7 +337,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: V5.11
-    created: "2022-03-17T22:44:51.980218963+08:00"
+    created: "2022-04-01T23:31:10.884078879+08:00"
     description: FastDFS-Nginx chart for Kubernetes
     digest: 7ec3e6fa4ff328bb7a69bb5e4f5dc1d348009a91a772304f099e2f1aaf7b418d
     home: https://github.com/happyfish100/fastdfs
@@ -353,7 +353,7 @@ entries:
   gohttpserver:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2022-03-17T22:44:51.99665217+08:00"
+    created: "2022-04-01T23:31:10.893154984+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -374,7 +374,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-17T22:44:51.983777072+08:00"
+    created: "2022-04-01T23:31:10.886232847+08:00"
     description: A Helm chart for Kubernetes
     digest: 9a8e075ad1086e3a0893f36eafe4775cc21233348bf6d5655345a3f77ae49b15
     home: https://github.com/codeskyblue/gohttpserver
@@ -390,7 +390,7 @@ entries:
   lam:
   - apiVersion: v2
     appVersion: "6.9"
-    created: "2022-03-17T22:44:52.018977893+08:00"
+    created: "2022-04-01T23:31:10.905302906+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -413,7 +413,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: "6.9"
-    created: "2022-03-17T22:44:52.008071168+08:00"
+    created: "2022-04-01T23:31:10.90168535+08:00"
     description: LDAP Account Manager (LAM)
     digest: 6d7b964a0b441a462e3feb8760358d7be4ed8f84af3bd74742941a5a5be550d3
     home: https://www.ldap-account-manager.org/lamcms/
@@ -430,7 +430,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: "6.6"
-    created: "2022-03-17T22:44:52.006844756+08:00"
+    created: "2022-04-01T23:31:10.900215582+08:00"
     description: A Helm chart for Kubernetes
     digest: 902a694018ccd1744c83d638fafc6bc4c42b738a4c923f7c3ddddfe5187efbab
     home: https://www.ldap-account-manager.org/lamcms/releases
@@ -447,7 +447,7 @@ entries:
   mdb:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2022-03-17T22:44:52.022172938+08:00"
+    created: "2022-04-01T23:31:10.909377733+08:00"
     description: A Helm chart for Kubernetes
     digest: 2d464d5c6cc7ea04e56a6295c8b2f980fdb71c96f09cad989857d7098ac20307
     keywords:
@@ -462,7 +462,7 @@ entries:
     version: 4.0.0
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2022-03-17T22:44:52.020651592+08:00"
+    created: "2022-04-01T23:31:10.907242272+08:00"
     description: A Helm chart for Kubernetes
     digest: 7c5ea640cec1351547ef1027b444dab45d4f61cb61c07b6aa61b4ed9b7bf6306
     keywords:
@@ -479,7 +479,7 @@ entries:
   mindoc:
   - apiVersion: v2
     appVersion: "2.0"
-    created: "2022-03-17T22:44:52.027380037+08:00"
+    created: "2022-04-01T23:31:10.915213544+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -505,7 +505,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: v2.0-beta.2
-    created: "2022-03-17T22:44:52.024800281+08:00"
+    created: "2022-04-01T23:31:10.913362385+08:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -525,9 +525,37 @@ entries:
     - http://ygqygq2.github.io/charts/mindoc-1.0.0.tgz
     version: 1.0.0
   mod-chart:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-04-01T23:31:10.920070146+08:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Chart for the nginx server
+    digest: bd78e65fc3415f423c9e8ce71bb7838ef6936456e9aea5a2331385165a7cd58d
+    home: http://www.nginx.org
+    icon: https://bitnami.com/assets/stacks/nginx/img/nginx-stack-220x234.png
+    keywords:
+    - nginx
+    - http
+    - web
+    - www
+    - reverse proxy
+    maintainers:
+    - email: 29ygq@sina.com
+      name: Chinge Yang
+    name: mod-chart
+    sources:
+    - https://github.com/bitnami/bitnami-docker-nginx
+    urls:
+    - http://ygqygq2.github.io/charts/mod-chart-3.0.0.tgz
+    version: 3.0.0
   - apiVersion: v1
     appVersion: 1.14.2
-    created: "2022-03-17T22:44:52.033066798+08:00"
+    created: "2022-04-01T23:31:10.918408272+08:00"
     description: Chart for the nginx server
     digest: 099e9d5d6ed490cb4bc08527625c7a6c64ac6ee2b1c6ce33188fd9efc7c2ddb3
     home: http://www.nginx.org
@@ -549,7 +577,7 @@ entries:
     version: 2.1.2
   - apiVersion: v1
     appVersion: 1.14.2
-    created: "2022-03-17T22:44:52.031082131+08:00"
+    created: "2022-04-01T23:31:10.917366992+08:00"
     description: Chart for the nginx server
     digest: 60307a8a460d34bcd6913e7b0e41d3724328e52876456b30e15b05987652ef10
     home: http://www.nginx.org
@@ -571,7 +599,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: 1.14.2
-    created: "2022-03-17T22:44:52.029827681+08:00"
+    created: "2022-04-01T23:31:10.916358662+08:00"
     description: Chart for the nginx server
     digest: 4b71a3adcdd76d9a853746cc089da02993e2cabf2e95725d683e7bc4d53e7775
     home: http://www.nginx.org
@@ -594,7 +622,7 @@ entries:
   mongoclient:
   - apiVersion: v2
     appVersion: 2.2.0
-    created: "2022-03-17T22:44:52.046755772+08:00"
+    created: "2022-04-01T23:31:10.938573806+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -619,7 +647,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: 2.2.0
-    created: "2022-03-17T22:44:52.034181884+08:00"
+    created: "2022-04-01T23:31:10.921133481+08:00"
     description: Nosqlclient (Formerly Mongoclient), MongoDB Management Tool
     digest: 7435491ff570268b64ae7e2ed091d9f5bb7878d303f78ae0fe84c58563804be9
     home: https://www.nosqlclient.com
@@ -639,7 +667,7 @@ entries:
   mysql:
   - apiVersion: v2
     appVersion: 5.7.26
-    created: "2022-03-17T22:44:52.057757658+08:00"
+    created: "2022-04-01T23:31:10.957633504+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -670,7 +698,7 @@ entries:
   mysql-servicemonitor:
   - apiVersion: v1
     appVersion: 5.7.24
-    created: "2022-03-17T22:44:52.058722907+08:00"
+    created: "2022-04-01T23:31:10.959090355+08:00"
     description: A Helm chart servicemonitor for mysql exporter
     digest: b4c6d95c20c9921dd9d1e58a5e61d8b9eaa78e0bdd6bc2ce456bfaf82296d3b4
     maintainers:
@@ -683,7 +711,7 @@ entries:
   nacos:
   - apiVersion: v2
     appVersion: 2.0.4
-    created: "2022-03-17T22:44:52.132985332+08:00"
+    created: "2022-04-01T23:31:11.030592317+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -714,7 +742,7 @@ entries:
     version: 2.0.1
   - apiVersion: v2
     appVersion: 2.0.4
-    created: "2022-03-17T22:44:52.131234572+08:00"
+    created: "2022-04-01T23:31:11.019056271+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -745,7 +773,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: 1.1.4
-    created: "2022-03-17T22:44:52.124565935+08:00"
+    created: "2022-04-01T23:31:11.009977647+08:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -771,7 +799,7 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: 1.1.4
-    created: "2022-03-17T22:44:52.119773707+08:00"
+    created: "2022-04-01T23:31:10.991102624+08:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -797,7 +825,7 @@ entries:
     version: 1.1.4
   - apiVersion: v1
     appVersion: 1.1.0
-    created: "2022-03-17T22:44:52.109831733+08:00"
+    created: "2022-04-01T23:31:10.978980452+08:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -823,7 +851,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2022-03-17T22:44:52.070868137+08:00"
+    created: "2022-04-01T23:31:10.96871464+08:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -849,7 +877,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2022-03-17T22:44:52.061766503+08:00"
+    created: "2022-04-01T23:31:10.962039682+08:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -876,7 +904,7 @@ entries:
   nginx-php:
   - apiVersion: v2
     appVersion: nginx-1.10.3_php-7.0_1242
-    created: "2022-03-17T22:44:52.136486574+08:00"
+    created: "2022-04-01T23:31:11.034083653+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -904,7 +932,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-17T22:44:52.13526607+08:00"
+    created: "2022-04-01T23:31:11.032940145+08:00"
     description: A Helm chart for Kubernetes
     digest: ed6636418ac75bb688b1394819861d008d31f83ff780f875b2840f1bd44d4fff
     home: https://
@@ -919,7 +947,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: nginx-1.10.3_php-7.0
-    created: "2022-03-17T22:44:52.134338425+08:00"
+    created: "2022-04-01T23:31:11.031756454+08:00"
     description: Chart for the nginx php server
     digest: 36467369abd7e6050cfc6f41304d20da8579c8cbdcf0597d4868cbe1fa7b9d68
     home: https://github.com/1and1internet/ubuntu-16-nginx-php-7.0
@@ -942,7 +970,7 @@ entries:
   nginx-php-sftp:
   - apiVersion: v2
     appVersion: nginx-1.10.3_php-7.0_1242
-    created: "2022-03-17T22:44:52.153599104+08:00"
+    created: "2022-04-01T23:31:11.060582225+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -973,7 +1001,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: nginx-1.10.3_php-7.0
-    created: "2022-03-17T22:44:52.152167645+08:00"
+    created: "2022-04-01T23:31:11.053900652+08:00"
     description: Chart for the nginx server
     digest: 0ddd4a6e71d97e495ec59f6bb0386d3a30cbed9bc866660ad790d38bdf43ffbc
     home: http://www.nginx.org
@@ -998,7 +1026,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: nginx-1.10.3_php-7.0
-    created: "2022-03-17T22:44:52.150389502+08:00"
+    created: "2022-04-01T23:31:11.046444913+08:00"
     description: Chart for the nginx server
     digest: 189cdf502a992a3e60160a0627568a498dbbd73de13cb094a0df37e474135bcb
     home: http://www.nginx.org
@@ -1024,7 +1052,7 @@ entries:
   nginx-sftp:
   - apiVersion: v2
     appVersion: 1.14.2
-    created: "2022-03-17T22:44:52.159039358+08:00"
+    created: "2022-04-01T23:31:11.077657587+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -1053,7 +1081,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: 1.14.2
-    created: "2022-03-17T22:44:52.157499744+08:00"
+    created: "2022-04-01T23:31:11.076061954+08:00"
     description: Chart for the nginx server
     digest: 408addeb530ee5830d305f8fe31b5c7e4347d7ce181a7be0b15fb4146ee8783f
     home: http://www.nginx.org
@@ -1075,7 +1103,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: 1.14.2
-    created: "2022-03-17T22:44:52.156400794+08:00"
+    created: "2022-04-01T23:31:11.074776317+08:00"
     description: Chart for the nginx server
     digest: c1b0e0b74cebe6316101aba045cea17795f8c7d597ead3363126d89c02bd0a9c
     home: http://www.nginx.org
@@ -1098,7 +1126,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: 1.14.2
-    created: "2022-03-17T22:44:52.155086204+08:00"
+    created: "2022-04-01T23:31:11.06198873+08:00"
     description: Chart for the nginx server
     digest: e418b6f86b9664b7075fe7604c38202399a7172be971b3a6b34e458be08b67e9
     home: http://www.nginx.org
@@ -1122,7 +1150,7 @@ entries:
   node-exporter-servicemonitor:
   - apiVersion: v1
     appVersion: v0.17.0
-    created: "2022-03-17T22:44:52.159564912+08:00"
+    created: "2022-04-01T23:31:11.078288924+08:00"
     description: A Helm chart servicemonitor for node exporter
     digest: e000303dbb6de30580dd5846e856689bbf67fe77c05f0d2e3ef59662f9d18792
     maintainers:
@@ -1135,7 +1163,7 @@ entries:
   perfino:
   - apiVersion: v2
     appVersion: 3.2.1
-    created: "2022-03-17T22:44:52.176645579+08:00"
+    created: "2022-04-01T23:31:11.096324647+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -1159,7 +1187,7 @@ entries:
   self-service-password:
   - apiVersion: v2
     appVersion: "1.3"
-    created: "2022-03-17T22:44:52.196875827+08:00"
+    created: "2022-04-01T23:31:11.115235524+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -1185,7 +1213,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: "1.3"
-    created: "2022-03-17T22:44:52.187430516+08:00"
+    created: "2022-04-01T23:31:11.106458889+08:00"
     description: Web interface to change and reset password in an LDAP directory.
     digest: 8dff77dc0d4920e51f7ea97bfe7d04ff2d081f6b3c9669abef3c77a9a9c3ba88
     home: https://ltb-project.org/documentation/self-service-password
@@ -1206,7 +1234,7 @@ entries:
   sftp:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2022-03-17T22:44:52.19876805+08:00"
+    created: "2022-04-01T23:31:11.116836236+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -1230,7 +1258,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-17T22:44:52.197751327+08:00"
+    created: "2022-04-01T23:31:11.116078983+08:00"
     description: A Helm chart for Kubernetes
     digest: 10e77351fb09b90a18667fc7e3f4e4bf600901ee246393d58ae7aed455657feb
     home: https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol
@@ -1247,7 +1275,7 @@ entries:
   tengine-sftp:
   - apiVersion: v2
     appVersion: 2.3.2
-    created: "2022-03-17T22:44:52.221467562+08:00"
+    created: "2022-04-01T23:31:11.120027199+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -1278,7 +1306,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: 2.3.2
-    created: "2022-03-17T22:44:52.200450253+08:00"
+    created: "2022-04-01T23:31:11.118136977+08:00"
     description: Chart for the tengine server.
     digest: 378085264d466bd922ba9d6ab020ee7ae6e83f901c0bcbb2f8b5e5f9567575d1
     home: http://tengine.taobao.org
@@ -1304,7 +1332,7 @@ entries:
   utcook:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2022-03-17T22:44:52.232363617+08:00"
+    created: "2022-04-01T23:31:11.128983851+08:00"
     description: A Helm chart for Kubernetes
     digest: 7faebb26ecf1fd32d631858dad70b4e132ea73a054beed942c1615c853df901a
     home: https://github.com/ygqygq2/charts/tree/master/utcook
@@ -1321,7 +1349,7 @@ entries:
     version: 2.1.4
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2022-03-17T22:44:52.231130166+08:00"
+    created: "2022-04-01T23:31:11.127866913+08:00"
     description: A Helm chart for Kubernetes
     digest: ce7d3d68c27044492cff4aee4efde27b1b9cd0989ac39611305752bb4b6fdf2f
     home: https://github.com/ygqygq2/charts/tree/master/utcook
@@ -1338,7 +1366,7 @@ entries:
     version: 2.1.3
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2022-03-17T22:44:52.229570713+08:00"
+    created: "2022-04-01T23:31:11.126553646+08:00"
     description: A Helm chart for Kubernetes
     digest: 07d6dad0aa3956fc6845314488f09cbc596fc2b5c8cc5c53d598c4cf3fe634b1
     home: https://github.com/ygqygq2/charts/tree/master/utcook
@@ -1355,7 +1383,7 @@ entries:
     version: 2.1.2
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2022-03-17T22:44:52.226697302+08:00"
+    created: "2022-04-01T23:31:11.125112826+08:00"
     description: A Helm chart for Kubernetes
     digest: d5d10896ae6b809430e4cacbd4ed15a5011e899d585854e9ceebace8c7af63b3
     home: https://github.com/ygqygq2/charts/tree/master/utcook
@@ -1372,7 +1400,7 @@ entries:
     version: 2.1.1
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2022-03-17T22:44:52.225150441+08:00"
+    created: "2022-04-01T23:31:11.123680712+08:00"
     description: A Helm chart for Kubernetes
     digest: fa974b66c648c39b20b285ffae4b4af9098aefe886793c27435612247247d537
     home: https://
@@ -1388,7 +1416,7 @@ entries:
     version: 2.1.0
   - apiVersion: v1
     appVersion: 1.1.8
-    created: "2022-03-17T22:44:52.223870797+08:00"
+    created: "2022-04-01T23:31:11.122414231+08:00"
     description: A Helm chart for Kubernetes
     digest: ad99f9f8ad4d3bf2ab8585ec1c6511557968924c4f17a563c7026e36d21aa0ca
     home: https://
@@ -1404,7 +1432,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-17T22:44:52.22258287+08:00"
+    created: "2022-04-01T23:31:11.121244234+08:00"
     description: A Helm chart for Kubernetes
     digest: 09992c642218d96ee8db2d212d8ddb8f04fce3ee9c81778ff99c454613d59298
     home: https://
@@ -1420,7 +1448,7 @@ entries:
   yapi:
   - apiVersion: v2
     appVersion: v1.8.0
-    created: "2022-03-17T22:44:52.240429668+08:00"
+    created: "2022-04-01T23:31:11.135604692+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -1448,7 +1476,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: v1.7.2
-    created: "2022-03-17T22:44:52.234988518+08:00"
+    created: "2022-04-01T23:31:11.131459942+08:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -1472,7 +1500,7 @@ entries:
   zipkin:
   - apiVersion: v2
     appVersion: "2.23"
-    created: "2022-03-17T22:44:52.247574956+08:00"
+    created: "2022-04-01T23:31:11.150155981+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -1499,7 +1527,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: "2"
-    created: "2022-03-17T22:44:52.242797562+08:00"
+    created: "2022-04-01T23:31:11.137778948+08:00"
     description: A Helm chart for Kubernetes
     digest: 803aa364f94627723e6d11db174f32e3e66de4e6dcc734b871377b85396016e3
     home: https://zipkin.io/
@@ -1514,4 +1542,4 @@ entries:
     urls:
     - http://ygqygq2.github.io/charts/zipkin-1.0.1.tgz
     version: 1.0.1
-generated: "2022-03-17T22:44:51.843263288+08:00"
+generated: "2022-04-01T23:31:10.764595376+08:00"
